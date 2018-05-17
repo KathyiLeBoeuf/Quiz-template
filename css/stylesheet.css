@@ -1,0 +1,21 @@
+html {
+	font-size: 62.5%; 
+	
+}
+p {
+	font-size: 4rem;
+	color: darkslateblue;
+}
+body {
+	box-sizing: border-box;
+	background-image: url("/Users/kathyleboeuf/Desktop/tutoringJS/Quiz/blueGreenSquares.png"); 
+	background-repeat:  repeat; 
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	background-image: url("blueGreenSquares.png"); 
+	background-repeat:  repeat; 
+}
+hr{
+	margin-top: 5rem;
+}

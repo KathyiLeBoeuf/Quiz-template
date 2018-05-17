@@ -1,0 +1,331 @@
+/* FONTS
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cuprum', sans-serif; - headers and all titles
+*/
+/* COLORS
+green =#79D62F
+purple lighter = #702AD2
+purple darker =  #4A35B5
+color: rgb(34,137,239)
+#2D89EF
+rgba(45, 137, 239, .5)
+
+100% 		 #ffffff
+95% 		 #e7f2fd
+90% 		 #d0e4fb
+85% 		 #b8d7fa
+80% 		 #a0c9f8
+75% 		 #88bcf6
+70% 		 #71aef4
+65% 		 #59a1f3
+60% 		 #4193f1
+56% 		 #2d89ef
+55% 		 #2a86ef
+50% 		 #1278ed
+45% 		 #106cd5
+40% 		 #0e60be
+35% 		 #0c54a6
+30% 		 #0b488e
+25% 		 #093c77
+20% 		 #07305f
+15% 		 #052447  titles (too dark)
+10% 		 #04182f
+5% 		 #020c18
+0% 		 #000000
+
+ rgba(0, 171, 169, .5);
+#00ABA9
+
+100% 		 #ffffff
+95% 		 #e6ffff
+90% 		 #ccfffe
+85% 		 #b3fffe
+80% 		 #99fffd
+75% 		 #80fffd
+70% 		 #66fffc
+65% 		 #4dfffc
+60% 		 #33fffc
+55% 		 #1afffb
+50% 		 #00fffb
+45% 		 #00e6e2
+40% 		 #00ccc9
+35% 		 #00b3b0
+34% 		 #00aba9
+30% 		 #009996
+25% 		 #00807d
+20% 		 #006664
+15% 		 #004d4b
+10% 		 #003332
+5% 		 #001a19
+0% 		 #000000
+*/
+
+
+html {
+	font-size: 62.5%; 
+	
+}
+
+body {
+	box-sizing: border-box;
+	/*background: linear-gradient(to bottom, rgba(45, 137, 239, .5), rgba(0, 171, 169, .5)); */
+	background-image: url("/Users/kathyleboeuf/Desktop/tutoringJS/Quiz/blueGreenSquares.png"); 
+	background-repeat:  repeat; 
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.container {
+	text-align: center;
+	position: relative;
+}
+header{
+	
+	height: 10rem;
+	text-align: center;
+}
+
+main {
+	font-size: 2.5rem;
+	padding: 3rem;
+	background: rgba(255, 255, 255, .7);
+	text-align: center;
+}
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	height: 2.5rem;
+	text-align: center;
+	padding: .7rem;
+}
+h1 {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 8rem;
+	letter-spacing: .6rem;
+
+	color: #79D62F;
+	text-shadow:5px 5px 7px rgba(1,1,1, 1);
+
+}
+
+h2 {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 4rem;
+	letter-spacing: .4rem;
+
+	color: #4A35B5;
+	/*
+	text-shadow:5px 5px 7px rgba(255,255,255, .8);
+	text-shadow:5px 5px 7px rgba(1,1,1, .5);
+	*/
+}
+#nameTyped {
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+ul li {
+	text-decoration: none;
+	text-align: center;
+	list-style-type: none;
+}
+
+tr {
+	color: rgba(45, 137, 239, .5);
+	color: #093c77;
+}
+
+	.button {
+	   border-top: 1px solid #96d1f8;
+	   background:rgba(45, 137, 239, .5);
+	   /*background: #2d88ef; */
+	  /* background: linear-gradient(to bottom, #2d88ef, #65a9d7);  */
+	   padding: 1rem 1.5rem;
+	   	/*-webkit-border-radius: 11px;
+	  	 -moz-border-radius: 11px; */
+	   /*border-radius: 37px 0 37px 0; */
+	   border-top-left-radius: 37px;
+	   border-top-right-radius: 0px;
+	   border-bottom-right-radius: 37px;
+	   border-bottom-left-radius: 0px;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #fff;
+	   font-size: 2rem;
+	   font-family: 'Open Sans', sans-serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   }
+	.button:hover {
+	   border-top-color: #00ABA9;
+	   background: #00ABA9;
+	   color: #fff;
+	   content: '\00bb';
+	   box-shadow: 1rem 1rem .5rem rgba(5, 36, 71, .5);
+	   }
+	.button:active {
+	   border-top-color: #1b435e;
+	   background: #1b435e;
+	   }
+	   a:link,
+	   a:visited {
+		text-decoration: none;
+		color: #fff;
+	   }
+	   
+	   a:hover,
+	   a:active {
+		border-top-color: #00ABA9;
+		background: #00ABA9;
+		color: #052447;
+	   }
+	   table {
+		   margin: 0 auto;
+	   }
+	   td {
+		text-align: left;
+		padding: 2rem;
+		font-size: 3rem;
+	   }
+
+
+	   /* ===================================*/
+	   
+	header #hamburger {
+    position: absolute;
+    right: 2rem;
+    height: 50%;
+    top: 5rem;
+}
+
+/* ------------------------------------------------- Main nav bar */
+
+nav {
+	width: 210px;
+	position: fixed;
+	right: 0;
+	top: 80px;
+ }
+ 
+ nav a {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 120%;
+	border-bottom: solid 1px #2950B2;
+ }
+ 
+ nav a:hover {
+	background: #6E97FF;
+ }
+ 
+ #nav.hidden {
+	right: -210px;
+ }
+ 
+ #nav.visible {
+	right: 0;
+ }
+ 
+
+ main.win  {
+	height: 45rem;
+	background-color: #000000;
+ }
+ main.win h2 {
+	 color: #fff;
+ }
+ #star {
+	 width: 4rem;
+	 height: auto;
+ }
+ svg {
+	fill: red; 
+ }
+ #star2 {
+	 fill: purple;
+ }
+
+ .name-box {
+	height: 4rem;
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+ }
+
+ .name-submit {
+	height: 4rem;
+	/* font-size: 4rem; */
+	font-family: 'Open Sans', sans-serif;
+	color: purple;
+ }
+
+ #game-table {
+	display: block;
+	/* display: none;  */
+ }
+
+ /* GAME Page ==================================== */
+ .grid {
+width: 50%;
+height: auto;
+margin: 0 auto;
+background-color: #96d1f8;
+padding: 1rem 5rem;
+/* border: 37px 0px  solid #2d88ef; */
+box-shadow: 1rem 1.5rem .5rem #2d88ef;
+border-top-left-radius: 5rem;
+border-top-right-radius: 5rem;
+border-bottom-right-radius: 5rem;
+border-bottom-left-radius: 5rem;
+
+
+ }
+ hr {
+	 margin-top: 5rem;
+ }
+ #question{
+	border: 1rem  outset #2d88ef;
+	background-color: #fff;
+	border-radius: 4rem / 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 2rem;
+
+ } /* love fears hate link visited focus hover active */
+ .btn0, .btn1, .btn2, .btn3 {
+	background-color: #fff;
+	width: 45%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2rem;
+	border: .5rem  solid #2d88ef;
+	border-radius: 1rem;
+	margin: 2rem;
+	padding: 1rem;
+	
+ }
+ .btn0:hover, .btn1:hover, .btn2:hover, .btn3:hover{
+	cursor: pointer;
+	background-color: #96d1f8;
+	background-color: #2d88ef;
+	color: #fff;
+	box-shadow: 1rem 1rem .5rem rgba(5, 36, 71, .5);
+ }
+ .btn0active, .btn1active, .btn2active, .btn3active {
+	box-shadow: 1rem 1rem .5rem  gold;
+ }
+ .progress {
+	 color: #2b2b2b;
+	 font-size: 2rem;
+	 margin-bottom: 1rem;
+ }
+ #answers1 {
+	 display: flex;
+	 margin: 1rem;
+ }
+ #answers2 {
+	display: flex;
+	margin: 1rem;
+}

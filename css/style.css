@@ -1,0 +1,61 @@
+/* FONTS
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cuprum', sans-serif; - headers and all titles
+*/
+/* COLORS
+green =#79D62F
+purple lighter = #702AD2
+purple darker =  #4A35B5
+
+*/
+
+html {
+	font-size: 62.5%; 
+	background-image: url("img/purpleGreenTarget.png"); 
+	background-repeat:  repeat;
+}
+
+body {
+	box-sizing: border-box;
+	/* gives a white border around the entire page */
+	padding: 3rem; 
+	margin: 0;
+	/*background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)); */
+	/*
+	background-color: #fff;  */
+	
+	
+	font-family: 'Open Sans', sans-serif;
+	color: purple;
+}
+
+header {
+	background-image: url("purpleGreenTarget.png"); 
+	background-repeat:  repeat;
+
+font-family: 'Cuprum', sans-serif;
+color: #79D62F;
+  	font-weight: 300;
+	line-height: 1.6; 
+	font-size: 2rem;
+	height: 10rem;
+	margin: 0;
+}
+
+section {
+	background-color:orange;
+	height: 50rem;
+	line-height: 1.2; 
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+footer {
+	background-color:yellow;
+	height: 15rem;
+	line-height: 1.2; 
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+

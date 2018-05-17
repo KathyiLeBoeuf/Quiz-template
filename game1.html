@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style2.css">
+	<title>Multiple Choice</title>
+</head>
+<body>
+	<div class = "container" id = "multiple">
+	<header>
+		<h1>Quiz Land</h1>
+		<nav id = "hamburger">right here</nav>
+	</header>
+	<main>
+<h2>Multiple Choice</h2>
+<button onclick = "start()">Let's play</button>
+<script>
+	var start = function() {
+		var correct = 0;
+		var incorrect = 0;
+		var question = 'none';
+		var input = 'none';
+		var answer = 'none';
+	};
+
+	var ask = function() {
+		input = prompt (question);
+	};
+
+	var score = function() {
+		if(input == answer) {
+			correct = correct + 1;
+			alert('correct');
+		} else {
+			incorrect = incorrect + 1;
+			alert('incorrect');
+		}
+	};
+
+	var lazy = function() {
+		ask();
+		score();
+	};
+alert('Welcome to Composer Corner!')
+
+question = 'What is the matrix?';
+answer = 'There is no spoon';
+lazy();
+
+question = 'Is there a matrix?';
+answer = 'There is no matrix';
+lazy();
+
+question = 'What iss the matrix size?';
+answer = 'More than 6';
+lazy();
+
+alert('Well done, you got ${correct} correct.');
+</script>
+
+	</main>
+	<footer>&#169 Copyright 2018 Kathy I. LeBoeuf</footer>
+</div>
+</body>
+</html>
