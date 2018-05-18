@@ -1,6 +1,18 @@
+// WELCOME AND NAME ================
+
+				function myFunction() {
+					let element = document.getElementById("nameTyped").value;
+					console.log(element);
+					document.getElementById("welcome").innerHTML = `"Hello ${nameTyped}, what game do you want to play?"`;
+					//document.getElementById("nameButton").innerHTML = < h2 style = "display: hidden"></h2>;
+				//	document.getElementById("nameButton").innerHTML = <style>display: hidden;</style>
+				};
+			
+
 // APP section ==========================
+/*
 function populate() {
-	if (quiz.isEnded()) {
+	if (quiz.isEnded) {
 		showScore();
 	} else {
 		// show question
@@ -29,8 +41,7 @@ function showProgress() {
 	var currentQuestionNumber = quiz.questionIndex + 1;
 	var element = document.getElementById("progress");
 	element.innerHTML = "Question " + currentQuestionNumber + "of " +quiz.questions.length;
-	/*
-	element.innerHTML = `Question  + ${currentQuestionNumber} of ${quiz.questions.length}`;  */
+	
 };
 /*
 function showScore() {
@@ -40,6 +51,7 @@ function showScore() {
 	element.innerHTML = gameOverHtml;
 };
 */
+/*
 var question = [
 	new Question("Who composed Chorus from Judas Maccabaeus?", ["Handel", "Bach", "Mouret", "Thomas",], "Handel"),
 	new Question("Who composed Musette?", ["Gossec", "Bizet", "Mozart", "Bach",], "Bach"),
@@ -66,7 +78,6 @@ function   Question(text, choices, answer)  {
 	this.choices = choices;
 	this.answer = answer;
  };
-// not sure about this one
  Question.prototype.correctAnswer = function(choices) {
 	return choices === this.answer;
  };
@@ -93,6 +104,6 @@ Quiz.prototype.guess = function(answer) {
 	}
 };
 
-
+*/
 
 

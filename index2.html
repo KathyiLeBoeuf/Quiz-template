@@ -18,31 +18,12 @@
 			<nav id="hamburger">right here</nav>
 		</header>
 		<main>
-			<div class="prompt">
-				<!--
-				<script>
-					let name = prompt("Please enter your name", "");
-					if(name !== null)  {
-						document.getElementById("welcome").innerHTML = 
-						`Hello ${nameTyped}, what game do you want to play?`;
-					}
-					</script>
--->
-			</div>
-
-			<p>
-				Type your name:
+			<form>
+				<label>Type your name:</label>
 				<input type="text" name="name" id="nameTyped" value="">
 				<button class = "button" id = "nameButton" onclick="myFunction()">Click here to start</button>
-			</p>
-			<script>
-				function myFunction() {
-					let element = document.getElementById("nameTyped").value;
-					document.getElementById("welcome").innerHTML = `"Hello ${nameTyped}, what game do you want to play?"`;
-					//document.getElementById("nameButton").innerHTML = < h2 style = "display: hidden"></h2>;
-				//	document.getElementById("nameButton").innerHTML = <style>display: hidden;</style>
-				}
-			</script>
+			</form>
+			
 			<p>
 				<h2 id="welcome"></h2>
 			</p>
@@ -99,7 +80,8 @@
 		<footer>&#169 Copyright 2018 Kathy I. LeBoeuf</footer>
 	</div>
 
-	<script src="tutoringJS/Quiz/js/style.js"></script>
+	<script src="js/style.js"></script>
+	
 </body>
 
 </html>
